@@ -1,0 +1,390 @@
+.html, body {
+margin: 0 auto;
+padding: 0;
+font-family: 'Neucha', cursive;
+background-color: rgb(240, 234, 183);
+}
+
+.cat_title1{
+font-size: 60px;
+
+}
+
+
+.intro{
+display: flex;
+width: 60%;
+margin: 0 auto;
+align-items: center;
+margin-top:2% ;
+}
+
+.photo_intro{
+width: 50%;
+}
+
+.text_intro{
+width: 50%;
+text-align: left;
+font-size: 35px;
+
+}
+
+.img_intro{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+border:8px solid lightcoral;
+}
+
+.line_block{
+margin-top: 5%;
+margin: 0 auto;
+width:60% ;
+display: flex;
+justify-content: center;
+}
+
+.line{
+background: lightcoral;
+margin-top: 5%;
+width: 5%;
+height: 5px;
+justify-content: center;
+}
+
+.hobby{
+display: flex;
+width: 60%;
+margin: 0 auto;
+margin-top: 3%;
+}
+
+.hobby_text{
+font-size: 40px;
+width: 50%;
+border-right:2px solid black ;
+}
+
+.hobby_about_text{
+font-size: 25px;
+padding-top: 20px;
+padding-right: 20px;
+}
+
+.hobby_num{
+display: flex;
+flex-direction:column ;
+width: 50%;
+}
+
+.info_hobby{
+display: flex;
+}
+
+.picture_hobby{
+width: 20%;
+text-align: center;
+margin-left: 3%;
+
+}
+
+.pic1{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+.about_hobby{
+width: 80%;
+align-items: center;
+padding-left: 10px;
+}
+
+.title_hobby1{
+font-size:20px;
+}
+
+.pets{
+display: flex;
+width: 60%;
+margin: 0 auto;
+margin-top: 3%;
+text-align: center;
+align-items: center;
+}
+
+.cat1{
+width: 25%;
+}
+
+.cat2{
+width: 25%;
+}
+
+.pic2{
+width: 100%;
+height: 250px;
+border-radius: 50%;
+border:8px solid lightcoral;
+}
+
+.cat_text{
+width: 50%;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 25px;
+
+}
+
+.cat_title{
+font-size: 35px;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+
+    border: 3px solid lightcoral;
+    border-radius: 30%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration:none;
+    box-align: center;
+    padding: 8px 40px ;
+    transition:  .2s linear;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color:#fafafa75;
+    color: lightcoral;
+}
+
+.knopka{
+margin-top: 3%;
+display: flex;
+justify-content: center;
+}
+
+.dreams{
+width: 60%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 2%;
+}
+
+.dreams_title{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+    .about__item{
+        width: 300px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        }
+                
+            
+        .about__item:hover .about__text{
+        opacity:1;
+        }
+            
+        
+        .about__item:hover .about__img img{
+        opacity: .2;
+        }
+        
+        .about__img{
+        background: linear-gradient(to bottom,rgb(228, 154, 75),rgb(230, 207, 133));
+        transition: transform .2s linear;
+        border-radius: 50%;
+        }
+            
+        .about__img img {
+        display: block;
+        transition:opacity .1s linear;
+        }
+            
+        .about__text{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        transform: translate3d(0,-20px,0);
+        width: 100%;
+        opacity: 0;
+        transition:opacity .2 linear ;
+        }
+        
+        .img_amur{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        border-radius: 50%;
+        }
+
+.photo_part{
+display: flex;
+flex-direction: column;
+margin-top:2%;
+}
+
+.first_line{
+display: flex;
+justify-content: center  ;
+}
+
+.second_line{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img1{
+width: 20%;
+height: 400px;
+}
+
+.img2{
+width: 20%;
+height: 400px;
+background-image: url(../katya_img/бананы.jpg);
+}
+
+.text_i2{
+opacity: 0;
+margin-top: 35%;
+font-size: 60px;
+align-items: center;
+text-align: center;
+background-color: rgb(148, 212, 223);
+}
+
+.text_i3{
+opacity: 0;
+margin-top: 35%;
+font-size: 60px;
+align-items: center;
+text-align: center;
+background-color: rgb(148, 212, 223);
+}
+
+.text_i4{
+opacity: 0;
+margin-top: 35%;
+font-size: 60px;
+align-items: center;
+text-align: center;
+background-color: rgb(148, 212, 223);
+}
+
+.text_i2:hover{
+opacity: 1;
+font-size: 100px;
+align-items: center;
+text-align: center;
+background-color: rgb(148, 212, 223);
+transition: 1s;
+}
+
+.text_i3:hover{
+opacity: 1;
+font-size: 90px;
+align-items: center;
+text-align: center;
+background-color: rgb(224, 186, 233);
+       
+transition: 1s;
+}
+
+.text_i4:hover{
+opacity: 1;
+font-size:100px;
+align-items: center;
+text-align: center;
+background-color: rgb(223, 212, 148);
+transition: 1s;
+}
+
+.img3{
+width: 20%;
+height: 400px;
+background-image: url(../katya_img/diamonds.jpg);
+}
+
+.img4{
+width: 20%;
+height: 400px;
+background-image: url(../katya_img/ананасы.jpg);
+}
+
+.img{
+width: 100%;
+height: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 207, 248);
+    margin-top: 5%;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    .footer_soc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px ;     
+    }
+    
+    .f_img{
+    width: 50px;
+    height: 50px;
+    
+    }
+    
+    .f__img{
+        width: 50px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    
+    
+        .f_img:hover{
+            width: 60px;
+            height: 60px;
+            transition: .3s;
+            
+    
+            
+            }
+            
+            .f__img:hover{
+                width: 60px;
+                height: 60px;
+                padding-left: 20px;
+                padding-right: 20px;
+                transition: .3s;
+                
+                }
+    
+    .f_text{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    }
